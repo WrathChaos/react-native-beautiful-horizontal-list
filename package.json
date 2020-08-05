@@ -1,6 +1,6 @@
 {
   "name": "react-native-library-boilerplate",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Description for library",
   "keywords": [
     "FreakyCoder",
@@ -19,6 +19,25 @@
   "repository": "git@github.com:WrathChaos/react-native-library-boilerplate.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^0.0.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./src/*.{js,jsx,ts,tsx}": [
+      "npx prettier --write",
+      "eslint src/*.js --fix-dry-run"
+    ]
+  },
   "peerDependencies": {
     "react": ">= 16.x.x",
     "react-native": ">= 0.55.x"
