@@ -6,7 +6,7 @@ export const _iconContainer = (primaryColor) => ({
   justifyContent: "center",
   backgroundColor: "#fdfdfd",
   shadowRadius: 8,
-  shadowOpacity: 0.3,
+  shadowOpacity: 0.35,
   shadowColor: primaryColor,
   shadowOffset: {
     width: 0,

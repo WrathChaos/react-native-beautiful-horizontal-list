@@ -3,7 +3,10 @@ import { Text, View, Image, FlatList } from "react-native";
 /**
  * ? Local Imports
  */
-import styles, { _iconContainer } from "./BeautifulHorizontalList.style";
+import styles, {
+  _iconContainer,
+  _unitTextStyle,
+} from "./BeautifulHorizontalList.style";
 
 export default class BeautifulHorizontalList extends Component {
   renderItem = (data) => {
@@ -28,7 +31,9 @@ export default class BeautifulHorizontalList extends Component {
         <View style={styles.textContainer}>
           <TextComponent style={styles.valueTextStyle}>{value}</TextComponent>
           <View style={styles.unitTextContainer}>
-            <TextComponent style={styles.unitTextStyle}>{unit}</TextComponent>
+            <TextComponent style={_unitTextStyle(primaryColor)}>
+              {unit}
+            </TextComponent>
           </View>
         </View>
       </View>

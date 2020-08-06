@@ -15,7 +15,7 @@ const staticData = [
     title: "Running",
     value: "8,984",
     unit: "Steps",
-    primaryColor: "#4C82D7",
+    primaryColor: "#10CFE4",
     imageSource: require("./assets/run.png"),
   },
   {
@@ -26,11 +26,11 @@ const staticData = [
     imageSource: require("./assets/cyclist-silhouette.png"),
   },
   {
-    title: "Running",
-    value: "16",
-    unit: "Km",
-    imageBackground: "#395153",
-    imageSource: require("./assets/run.png"),
+    title: "Swimming",
+    value: "9501",
+    unit: "Stoke",
+    primaryColor: "#10E471",
+    imageSource: require("./assets/swimmer.png"),
   },
 ];
 
