@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Image, StatusBar, SafeAreaView } from "react-native";
 
-import BeautifulHorizontalList from "./lib/BeautifulHorizontalList";
+import BeautifulHorizontalList from "react-native-beautiful-horizontal-list";
 
 const staticData = [
   {

@@ -1,8 +1,14 @@
 {
-  "name": "react-native-library-boilerplate",
+  "name": "react-native-beautiful-horizontal-list",
   "version": "0.1.0",
-  "description": "Description for library",
+  "description": "Fully customizable and easy to use beautifully designed horizontal list for React Native.",
   "keywords": [
+    "list",
+    "beautiful",
+    "design",
+    "horizontal",
+    "flat-list",
+    "flatlist",
     "FreakyCoder",
     "freakycoder",
     "kuray",
@@ -14,9 +20,9 @@
     "rn"
   ],
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-library-boilerplate/issues",
+  "bugs": "https://github.com/WrathChaos/react-native-beautiful-horizontal-list/issues",
   "main": "./lib/src/index.js",
-  "repository": "git@github.com:WrathChaos/react-native-library-boilerplate.git",
+  "repository": "git@github.com:WrathChaos/react-native-beautiful-horizontal-list.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "devDependencies": {
